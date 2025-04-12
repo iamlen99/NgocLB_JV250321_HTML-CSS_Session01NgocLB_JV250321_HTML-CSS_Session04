@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #231651;
+  margin: 20px 0 30px 20px;
+  font-size: 35px;
+}
+
+.content,
+.btn {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.content p {
+  color: #231651;
+  font-size: 18px;
+  /* margin-bottom: 20px; */
+  padding-left: 10px;
+}
+
+.content td {
+  padding-bottom: 15px;
+}
+
+.btn .btn-1 a {
+  color: white;
+  background-color: #bc2229;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn .btn-2 a {
+  color: #231651;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: solid 2px #c1bcd1;
+  border-radius: 5px;
+  font-weight: bold;
+}
