@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #f3f2f6;
+}
+
+.course {
+  background-color: #ffffff;
+  width: 340px;
+  padding: 20px 40px;
+  margin: 5px;
+  border: solid 2px #c1bcd1;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.course .course-title {
+  text-decoration: none;
+  color: #bc2229;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.course .benefit {
+  color: #231651;
+  font-size: 18px;
+  line-height: 1.6;
+}
