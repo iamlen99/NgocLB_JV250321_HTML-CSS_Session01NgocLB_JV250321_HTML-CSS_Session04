@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.post-container {
+  width: 600px;
+  margin-left: 20px;
+}
+
+.post-container h1 {
+  margin: 20px 0 20px 10px;
+  font-size: 40px;
+}
+
+.post-container .post-title {
+  margin: 15px 0;
+  font-size: 30px;
+}
+
+.post-container h3 {
+  margin: 15px 0;
+  font-size: 25px;
+}
+
+.post-container p {
+  font-size: 20px;
+  line-height: 1.5;
+}
