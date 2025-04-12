@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  width: 350px;
+  background-color: white;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.container .title {
+  color: #fff;
+  background-color: #ed1a35;
+  padding: 20px 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container .content {
+  padding: 20px 30px;
+}
+
+.container .content .info {
+  color: #666666;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: solid 2px #dcdcdc;
+}
+
+.container .content .info:nth-of-type(7) {
+  border-bottom: none;
+}
+
+.container .content .info span {
+  color: #ff8c00;
+}
+
+.container .content .btn-1 {
+  background-color: #c3152c;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 28px;
+}
+
+.container .content .btn-1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container .content .btn-2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.container .content .btn-2 a {
+  color: #ed1a35;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 25px;
+  border: 2px solid #ed1a35;
+  border-radius: 25px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.icon-sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+}
