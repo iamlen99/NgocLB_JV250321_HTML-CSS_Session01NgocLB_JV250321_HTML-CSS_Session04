@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f7fa;
+}
+
+.container {
+  width: 600px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: #fff;
+  border: 2px solid #e2e5ec;
+  border-radius: 10px;
+}
+
+.container .project-title {
+  color: #141824;
+  font-size: 35px;
+}
+
+.container .project-status {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 3px 15px;
+  color: #c14512;
+  background-color: #ffeeca;
+  border: 2px solid #ffcc85;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container .project-info {
+  color: #313749;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.container .project-info .client {
+  color: #3774ff;
+  font-weight: 100;
+}
+
+.container .project-info .budget {
+  color: #141824;
+}
+
+.container .project-progress {
+  margin: 30px 0 15px 0;
+  color: #525b75;
+  font-size: 25px;
+  position: relative;
+}
+
+.container .project-progress .percentage {
+  color: #141824;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container .in-progress {
+  background-color: #ffeeca;
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.container .in-progress .progress {
+  background-color: #e57809;
+  width: 76%;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.container .project-timeline {
+  color: #313749;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.color-lightgray {
+  color: #545d76;
+}
+
+.container .tasks .task-count {
+  font-size: 25px;
+  text-align: end;
+  margin: 40px 0 20px 0;
+  color: #313749;
+}
+
+.container .tasks {
+  position: relative;
+}
+
+.container .tasks .assignee {
+  position: absolute;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.container .tasks .assignee-1 {
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 30%);
+}
+
+.container .tasks .assignee-2 {
+  bottom: 0;
+  left: 0;
+  transform: translate(80%, 30%);
+}
+
+.icon-margin {
+  margin-right: 5px;
+}
